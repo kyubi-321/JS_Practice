@@ -11,7 +11,7 @@ function findSecondLargest(arr){
 
 }
 
-arr=[1,2,3,4,5,67,4,2,2,,3,5,,666,3,2,22,99];
+arr=[1,2,3,4,5,67,4,2,2,,3,5,666,3,2,22,99];
 const secondLargest = findSecondLargest(arr);
 
 console.log(secondLargest);

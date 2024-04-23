@@ -8,7 +8,7 @@ function addElement(element){ // this is not a pure function because with each i
 
 let element = prompt("Enter the number")
 
-addElement(+element); // parseInt(string)  can also be sued to convert a string into an integer.
+addElement(+element); // parseInt(string)  can also be used to convert a string into an integer.
 addElement(67);
 
 console.log(array);

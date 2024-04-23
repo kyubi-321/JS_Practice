@@ -35,6 +35,6 @@ function init(){
     
 }
 
-let c=init();
-c();
+init();
+
 

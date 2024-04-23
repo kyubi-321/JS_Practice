@@ -14,9 +14,9 @@ function loadScript(src , callback){
 }
 
 
-function helo(src){
+function hello(src){
     alert("hello there i am hello"+src);
 }
 
 
-loadScript("https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" , helo)
+loadScript("https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" , hello)

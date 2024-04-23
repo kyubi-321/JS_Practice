@@ -14,7 +14,7 @@ let p2 = new Promise((resolve , reject)=>{
     console.log("Promise2 is pending");
 
     setTimeout(()=>{
-        console.log("I am  promise2 and I am rejected.");
+        console.log("I am  promise2 and I am rejected.");  
         reject(new Error("error occurs."));
     },5000)
 
